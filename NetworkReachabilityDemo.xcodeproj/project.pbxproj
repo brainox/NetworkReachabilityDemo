@@ -13,6 +13,7 @@
 		9B30DFAD2AC2C61800D7577F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B30DFAB2AC2C61800D7577F /* Main.storyboard */; };
 		9B30DFAF2AC2C61900D7577F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B30DFAE2AC2C61900D7577F /* Assets.xcassets */; };
 		9B30DFB22AC2C61900D7577F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B30DFB02AC2C61900D7577F /* LaunchScreen.storyboard */; };
+		9B30DFBA2AC2C74900D7577F /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30DFB92AC2C74900D7577F /* NetworkReachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B30DFAE2AC2C61900D7577F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B30DFB12AC2C61900D7577F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B30DFB32AC2C61900D7577F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B30DFB92AC2C74900D7577F /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9B30DFA52AC2C61800D7577F /* AppDelegate.swift */,
 				9B30DFA72AC2C61800D7577F /* SceneDelegate.swift */,
 				9B30DFA92AC2C61800D7577F /* ViewController.swift */,
+				9B30DFB92AC2C74900D7577F /* NetworkReachability.swift */,
 				9B30DFAB2AC2C61800D7577F /* Main.storyboard */,
 				9B30DFAE2AC2C61900D7577F /* Assets.xcassets */,
 				9B30DFB02AC2C61900D7577F /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				9B30DFAA2AC2C61800D7577F /* ViewController.swift in Sources */,
 				9B30DFA62AC2C61800D7577F /* AppDelegate.swift in Sources */,
 				9B30DFA82AC2C61800D7577F /* SceneDelegate.swift in Sources */,
+				9B30DFBA2AC2C74900D7577F /* NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CJ98NSPAD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetworkReachabilityDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CJ98NSPAD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetworkReachabilityDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
