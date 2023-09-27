@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         networkStatusChanged()
     }
     
+    /// The network status closure. 
     func networkStatusChanged() {
         NetworkReachability.shared.netStatusChangeHandler = { [weak self] in
             guard let self = self else { return }
