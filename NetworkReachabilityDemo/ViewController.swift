@@ -52,8 +52,8 @@ class ViewController: UIViewController {
     // Function to update the UI when the network is disconnected.
     func updateUIForDisconnected() {
         DispatchQueue.main.async {
-            self.connectionStatusLabel.text = "🔴 Disconnected"
-            self.networkTypeLabel.text = "No network connection"
+            self.connectionStatusLabel.text = "🔴 Disconnected."
+            self.networkTypeLabel.text = "No network connection."
         }
     }
 }
